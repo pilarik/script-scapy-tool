@@ -1,0 +1,11 @@
+installed scapy library
+installed sci-server-DHCP
+
+donwload Attack-script
+
+cd Attack-script
+
+chmod 750 menu.sh | ipCapture.sh | runDhcpServer.sh | showRedirectAddress.sh
+
+flooding MAC fake and capture IP address
+    Run ./menu.sh
