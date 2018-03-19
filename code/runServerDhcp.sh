@@ -18,7 +18,7 @@ echo
 read -p ' >>> Enter your network interface : ' iface
 echo
 
-# Definition manu script
+# Definition menu script
 echo "  Select one of the options"
 echo "1) Attack DHCP Server"
 echo "2) Run Server DHCP Fake"
