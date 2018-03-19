@@ -13,7 +13,7 @@ Through the management of Scapy, which is a powerful program of manipulation of 
 
 ## Installation
 
-menu.sh
+1) menu.sh
 ```sh
     include 1-options.sh  ok
     include 2-options.sh  ok
@@ -25,8 +25,10 @@ menu.sh
  ```
 
 
-converte RanMac.sh & findWordLineText.sh ----> modulos python   OK
+2) converte RanMac.sh & findWordLineText.sh ----> modulos python 
 
-######Configuration server DHCP########
+# Configuration server DHCP
+```sh
 defaul-lease-time timeDefaul;
 max-lease-time timeMax;
+```
