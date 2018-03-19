@@ -9,3 +9,24 @@ Through the management of Scapy, which is a powerful program of manipulation of 
 
 - [Installation](#installation)
 - [Process](#process)
+
+
+## Installation
+
+menu.sh
+```sh
+    include 1-options.sh  ok
+    include 2-options.sh  ok
+    include 3-options.sh
+    include 4-options.sh
+ findWordLineText.sh
+
+ dhcpSniffer.sh
+ ```
+
+
+converte RanMac.sh & findWordLineText.sh ----> modulos python   OK
+
+######Configuration server DHCP########
+defaul-lease-time timeDefaul;
+max-lease-time timeMax;
