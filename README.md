@@ -10,22 +10,24 @@ Through the management of Scapy, which is a powerful program of manipulation of 
 - [Installation](#installation)
 - [Process](#process)
 
+## Dependencias
+
+Sacapy  -> link install Scapy
+isc server DHCP -> link install isc server DHCP
 
 ## Installation
-
-1) menu.sh
 ```sh
-    include 1-options.sh  
-    include 2-options.sh  
-    include 3-options.sh
-    include 4-options.sh
- findWordLineText.sh
+-Download Script Scapy Tool -> link download tar.gz or clone repository
+-Extract file
+-Enable permissions to the .sh
+chmod 750 menu.sh
+chmod 750 ipCapture.sh
+...
+...
+run script ./menu.sh
+```
 
- dhcpSniffer.sh
- ```
-
-
-2) converte RanMac.sh & findWordLineText.sh ----> modulos python 
+2) converte RanMac.sh & findWordLineText.sh ----> modules python 
 
 # Configuration server DHCP
 ```sh
