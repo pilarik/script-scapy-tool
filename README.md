@@ -10,7 +10,7 @@ Through the management of Scapy, which is a powerful program of manipulation of 
 - [Installation](#installation)
 - [Process](#process)
 
-## Dependencias
+## Dependencies
 
 Sacapy  -> link install Scapy
 isc server DHCP -> link install isc server DHCP
